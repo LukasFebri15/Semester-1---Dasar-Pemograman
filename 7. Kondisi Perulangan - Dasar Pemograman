@@ -1,0 +1,71 @@
+1.Buatlah program untuk membalik sebuah kalimat, misal: input : “LUPA-LUPA INGAT” output : “TAGNI APUL-APUL”?
+
+
+- Here is a Python program to reverse a sentence word by word:
+python
+# Input a sentence
+sentence = input("Enter a sentence: ")
+
+# Split the sentence into words
+words = sentence.split()
+
+# Reverse each word in the list
+for i in range(len(words)):
+    words[i] = words[i][::-1]
+
+# Join the reversed words to form a new sentence
+new_sentence = " ".join(words)
+
+# Display the new sentence
+print("Reversed sentence: ", new_sentence)
+
+In this program, we first prompt the user to input a sentence and store it in a variable called sentence.
+We then split the sentence into words using the split() method and store them in a list called words.
+We then loop through each word in the list and reverse it using slicing and assignment. Finally,
+we join the reversed words using the join() method and display the new sentence using a print() statement.
+
+2. Buatlah program untuk menghitung jumlah masing-masing huruf vokal, dengan output seperti berikut ini:
+kalimat : “Universitas Nusa Putera”
+output :
+    Jumlah huruf A = 3
+    Jumlah huruf I =  2
+    Jumlah huruf U = 3
+    Jumlah huruf E = 2
+    Jumlah huruf O = 0
+    Total jumlah huruf vokal = 10?
+
+
+- Here is a Python program to count the number of each vowel in a sentence:
+python
+# Input a sentence
+sentence = input("Enter a sentence: ")
+
+# Make it suitable for caseless comparisons
+sentence = sentence.casefold()
+
+# Define vowels
+vowels = 'aeiou'
+
+# Initialize a dictionary with each vowel as its key and all values equal to 0
+count = {}.fromkeys(vowels, 0)
+
+# Loop through each character in the sentence and increment the count of the corresponding vowel in the dictionary if it is a vowel
+for char in sentence:
+    if char in count:
+        count[char] += 1
+
+# Print the count of each vowel
+for vowel, num in count.items():
+    print("Jumlah huruf", vowel.upper(), "=", num)
+
+# Print the total count of vowels
+total = sum(count.values())
+print("Total jumlah huruf vokal =", total)
+
+In this program, we first prompt the user to input a sentence and store it in a variable called sentence.
+We then make the sentence suitable for caseless comparisons using the casefold() method.
+We define a string called vowels containing all the vowels. We then initialize a dictionary called count with each vowel
+as its key and all values equal to 0 using the fromkeys() method. We loop through each character in the sentence using a for loop.
+In each iteration, we check if the character is a vowel by checking if it is in the count dictionary keys. If it is,
+we increment the value by 1. Finally,
+we print the count of each vowel using a for loop and print the total count of vowels using the sum() function.
