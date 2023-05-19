@@ -1,0 +1,24 @@
+1. Buatlah 1 modul untuk menghitung jumlah huruf besar (Upper Case) dan kemudian gunakanlah modul tersebut pada file yang lain?
+
+- Here is a Python module to count the number of uppercase letters in a string:
+python
+def count_uppercase(string):
+    count = 0
+    for char in string:
+        if char.isupper():
+            count += 1
+    return count
+
+To use this module in another file, you can import it using the import statement. For example, if the module is saved as uppercase_count.py, you can import it in another file like this:
+python
+import uppercase_count
+
+string = "This Is A Test String"
+count = uppercase_count.count_uppercase(string)
+print("Number of uppercase letters:", count)
+
+This will output:
+python
+Number of uppercase letters: 5
+
+Note that the uppercase_count.py file needs to be in the same directory as the file that is importing it.
