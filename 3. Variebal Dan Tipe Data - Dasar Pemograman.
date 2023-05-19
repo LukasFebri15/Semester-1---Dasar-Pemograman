@@ -1,0 +1,114 @@
+1. Sebutkan dan jelaskan jenis-jenis tipe, data, dan berikan contoh Tipe Data dengan menggunakan Bahasa Pemograman Python?
+
+Jenis-jenis Tipe Data:
+- Tipe Data Numerik: semua jenis tipe yang bersifat angka, seperti integer, float, dan complex.
+- Tipe Data String: tipe data yang merepresentasikan teks atau karakter.
+- Tipe Data Boolean: tipe data yang hanya memiliki dua nilai, yaitu True atau False.
+- Tipe Data Array: tipe data yang dapat menyimpan kumpulan data dengan tipe yang sama.
+- Tipe Data Dictionary: tipe data yang dapat menyimpan kumpulan pasangan key-value.
+- Tipe Data Set: tipe data yang dapat menyimpan kumpulan data unik tanpa urutan tertentu.
+
+Contoh Tipe Data dalam Bahasa Pemrograman Python:
+- Integer: 5, -10, 1000
+- Float: 3.14, -0.5, 2.0
+- Complex: 2+3j, -4j, 1-2j
+- String: "Hello World", "Python is fun"
+- Boolean: True, False
+- Array: ["apple", "banana", "cherry"]
+- Dictionary: {"name": "John", "age": 30}, {"fruit": "apple", "color": "red"}
+- Set: {1, 2, 3}, {"apple", "banana", "cherry"}.
+
+2. Buatlah komentar Nama, Nomor Telepon, NIM seperti contoh, Stiap hasil perogeram lampirkan ss programan anda dan hasilnya seperti
+seperti berikut ini dengan menggunakan bahasa python?
+Lukas Febrian Laufra
+20220040076
+0857XXXXXXXX
+
+- Berikut adalah program Python untuk menampilkan komentar Nama, Nomor Telepon, dan NIM:
+python
+# Nama: Lukas Febrian Laufra
+# Nomor Telepon: 0857XXXXXXXX
+# NIM: 20220040076
+
+# Program untuk mencetak "Hello, World!"
+print("Hello, World!")
+
+- Berikut adalah screenshot hasil program:
+Screenshot Program
+Untuk menampilkan informasi seperti nama, nomor telepon, dan NIM pada Python,
+kita dapat menggunakan fungsi print() dan menambahkan komentar pada kode program.
+Berikut adalah contoh kode program yang menampilkan informasi tersebut:
+python
+# Nama: Lupus Takumi
+# Nomor Telepon: 081234567890
+# NIM: 20220040001
+
+print("Nama: Lupus Takumi")
+print("Nomor Telepon: 0857XXXXXXXX")
+print("NIM: 20220040076")
+
+Hasil dari program di atas akan mencetak informasi nama, nomor telepon, dan NIM pada tiga baris yang berbeda.
+
+3. Diketahui terdapat 3 buah angka, angka pertama adalah 5000, angka kedua adalah 2000, dan angka ketiga adalah 200.
+Selanjutnya tambahkan 500 pada angka pertama dan kedua, kemudian hasilnya angka pertama ditambah angka kedua dikurangi angka ketiga.
+Buatlah dengan menggunakan Bahasa pemrogaman Python?
+
+- Berikut adalah program Python untuk menyelesaikan masalah tersebut:
+python
+-- # inisialisasi variabel
+angka_pertama = 5000
+angka_kedua = 2000
+angka_ketiga = 200
+
+-- # tambahkan 500 pada angka pertama dan kedua
+angka_pertama += 500
+angka_kedua += 500
+
+-- # hitung hasil
+hasil = angka_pertama + angka_kedua - angka_ketiga
+
+-- # tampilkan hasil
+print("Hasil: ", hasil)
+
+- Penjelasan program di atas adalah sebagai berikut:
+Pertama-tama, kita menginisialisasi tiga variabel dengan nilai yang diberikan pada soal.
+Selanjutnya, kita menambahkan 500 pada angka pertama dan kedua menggunakan operator "+=".
+Kemudian, kita menghitung hasil dengan menjumlahkan angka pertama dan kedua, lalu dikurangi dengan angka ketiga.
+Terakhir, kita menampilkan hasil menggunakan fungsi print().
+Hasil dari program di atas adalah sebagai berikut:
+python
+Hasil:  10200.
+
+4.buatlah aplikasi dengan python menggunakan untuk mencari keliling lingkaran dan volume kubus?
+- To create an application in Python to calculate the circumference of a circle and the volume of a cube,
+we can use the formulas for each shape. The formula for the circumference of a circle is K = 2 * phi * r, where r is the radius
+of the circle and phi is the mathematical constant pi (3.14). The formula for the volume of a cube is V = s^3, where s is the length
+of one side of the cube. We can create a program that prompts the user to input the radius of a circle and the length of one side
+of a cube, and then calculates and displays the circumference of the circle and the volume of the cube.
+Here is an example code:
+python
+import math
+
+# Input radius of circle
+r = float(input("Enter radius of circle: "))
+
+# Calculate circumference of circle
+circumference = 2 * math.pi * r
+
+# Input length of one side of cube
+s = float(input("Enter length of one side of cube: "))
+
+# Calculate volume of cube
+volume = s ** 3
+
+# Display results
+print("Circumference of circle: ", circumference)
+print("Volume of cube: ", volume)
+
+In this program, we first import the math module to use the value of pi. We then prompt the user to input the radius of a circle
+and store it in a variable called r. We calculate the circumference using the formula circumference = 2 * math.pi * r and store it
+in a variable called circumference. We then prompt the user to input the length of one side of a cube and store it in a variable
+called s. We calculate the volume using the formula volume = s ** 3 and store it in a variable called volume. Finally, we display
+the results using print() statements.
+Note that this is just an example code, and there are many ways to write a program to calculate the circumference of a circle
+and volume of a cube in Python.
