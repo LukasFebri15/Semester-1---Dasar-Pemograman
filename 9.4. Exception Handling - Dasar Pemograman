@@ -1,0 +1,49 @@
+1. Kapan pengecualian bawaan berikut dimunculkan? Berikan contoh untuk mendukung jawaban Anda?
+a.    ImportError
+b.    IOError
+c.    NameError
+d.    ZeroDivisionError
+
+- a. ImportError is raised when an import statement has trouble successfully importing the specified module
+This can happen when the module could not be located or when there is an invalid or incorrect path.
+An example of ImportError is when you try to import a module that does not exist, like import notamodule 
+
+- b. IOError is raised when an I/O operation (such as opening a file) fails for an input/output-related reason
+An example of IOError is when you try to open a file that does not exist, like open("nonexistentfile.txt").
+
+- c. NameError is raised when a local or global name is not found
+An example of NameError is when you try to use a variable that has not been defined, like print(nonexistentvariable).
+
+- d. ZeroDivisionError is raised when you try to divide a number by zero
+An example of ZeroDivisionError is print(1/0).
+
+2. Jelaskan hal berikut:
+a.    Exception Handling
+b.    Menangkap exception.
+
+a. Exception Handling adalah mekanisme yang digunakan untuk menangani kesalahan atau error yang terjadi pada saat runtime atau
+saat program berjalan
+Exception handling diperlukan untuk memastikan bahwa program tetap dapat berjalan meskipun terdapat kesalahan yang terjadi
+Dalam Python, exception handling dapat dilakukan menggunakan keyword try-catch
+Ketika terjadi kesalahan pada blok try, maka eksekusi program akan pindah ke blok except
+
+b. Menangkap exception adalah salah satu cara dalam melakukan exception handling. Dalam Python, menangkap exception dilakukan
+dengan menggunakan blok try-except
+Pada blok try, kode program yang mungkin menyebabkan exception ditempatkan. Jika terjadi exception pada blok try, maka eksekusi
+program akan pindah ke blok except
+Pada blok except, penanganan exception dilakukan dengan menuliskan kode program yang akan dijalankan jika terjadi exception pada
+blok try
+
+
+(Berikut ini CodinganNya)
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+df=pd.read_csv('./Tugas Sesi 13 DPP - Lukas Febrian.csv')
+df.head()
+     
+Hasil:
+Unauthorized
+0	Error 401
