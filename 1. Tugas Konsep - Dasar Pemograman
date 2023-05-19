@@ -1,0 +1,78 @@
+1. sebutkan dan jelaskan perangkat lunak yang anda ketahui minimal 5?
+- Software System: Perangkat lunak sistem operasi berfungsi untuk mengendalikan seluruh sistem kerja mendasar yang ada di komputer. Jenis perangkat ini merupakan platform yang memungkinkan perangkat lunak dan aplikasi lain untuk berjalan pada komputer
+- Software Browser: Perangkat lunak browser digunakan untuk mengakses internet dan menampilkan halaman web. Beberapa contoh perangkat lunak browser yang populer adalah Mozilla, Chrome, Safari, Internet Explorer, dan Opera
+- Microsoft Office: Microsoft Office adalah kumpulan perangkat lunak aplikasi perkantoran yang terdiri dari program seperti Microsoft Word, Excel, PowerPoint, dan Outlook
+- Paint Software: Paint Software adalah perangkat lunak pengolah gambar sederhana yang biasanya sudah terpasang pada sistem operasi Windows.
+- Software Anti Virus: Perangkat lunak antivirus digunakan untuk melindungi komputer dari serangan virus dan malware. Beberapa contoh perangkat lunak antivirus yang populer adalah Norton, McAfee, dan Avast.
+
+2.Jelaskan apa yang dimaksud dengan fitiness dalam menyusun sebuah algoritma?
+- Fitness dalam menyusun sebuah algoritma adalah suatu nilai yang digunakan untuk mengevaluasi seberapa baik
+kinerja suatu solusi dalam menyelesaikan masalah yang diberikan. Nilai fitness ini biasanya dihitung berdasarkan
+fungsi evaluasi yang telah ditentukan sebelumnya. Dalam algoritma genetika, nilai fitness digunakan untuk menentukan
+kualitas individu dalam populasi dan menentukan individu mana yang akan dipilih untuk bereproduksi dan menghasilkan generasi baru.
+Semakin tinggi nilai fitness, semakin baik kinerja solusi tersebut dalam menyelesaikan masalah yang diberikan.
+
+3.Carilah symbol symbol yang digunakan untuk membuat flowchart beserta fungsi fungsinya masing masing sebanyak 10?
+- Simbol Terminal:Simbol ini digunakan untuk merepresentasikan awal dan akhir dari suatu proses. Simbol ini berbentuk oval dengan teks "Start" atau "End"
+- Simbol Proses: Simbol ini digunakan untuk merepresentasikan langkah-langkah dalam suatu proses. Simbol ini berbentuk persegi panjang dengan teks yang menjelaskan proses tersebut
+- Simbol Keputusan: Simbol ini digunakan untuk merepresentasikan keputusan dalam suatu proses. Simbol ini berbentuk diamond dengan pertanyaan atau kondisi yang harus dipenuhi untuk memilih jalur yang tepat
+- Simbol Input/Output: Simbol ini digunakan untuk merepresentasikan input atau output dalam suatu proses. Simbol ini berbentuk parallelogram dengan teks yang menjelaskan input atau output tersebut.
+- Simbol Flowline: Simbol ini digunakan untuk menghubungkan simbol-simbol dalam flowchart dan menunjukkan alur dari suatu proses. Simbol ini berbentuk garis lurus atau panah.
+- Simbol Connector: Simbol ini digunakan untuk menghubungkan dua bagian dari flowchart yang terpisah. Simbol ini berbentuk lingkaran kecil dengan nomor atau huruf di dalamnya.
+- Simbol Off-page Connector: Simbol ini digunakan untuk menghubungkan dua halaman flowchart yang berbeda. Simbol ini berbentuk lingkaran kecil dengan nomor atau huruf di dalamnya dan garis lurus yang menghubungkannya ke halaman lain.
+- Simbol On-page Connector: Simbol ini digunakan untuk menggantikan garis panjang pada halaman flowchart dan menghubungkan dua simbol yang terpisah di halaman yang sama. Simbol ini berbentuk lingkaran kecil dengan garis lurus yang menghubungkannya ke simbol lain.
+- Simbol Manual Operation: Simbol ini digunakan untuk merepresentasikan proses pengolahan yang tidak dilakukan oleh komputer, melainkan secara manual oleh manusia. Simbol ini berbentuk trapesium dengan teks yang menjelaskan proses tersebut.
+- Simbol Document: Simbol ini digunakan untuk merepresentasikan dokumen, laporan, atau formulir dalam suatu proses. Simbol ini berbentuk persegi panjang dengan teks yang menjelaskan dokumen tersebut.
+
+4.buatlah algoritma menggunakan representasi uraian deskripsi, flowchart dan pseudocode untuk permasalahan berikut ini:
+a. Menghjitung luas dan keliling lingkaran?
+b. menghitung luas segitiga?
+
+Berikut adalah algoritma menggunakan representasi uraian deskripsi, flowchart, dan pseudocode untuk permasalahan a dan b:
+a. Menghitung luas dan keliling lingkaran
+Deskripsi:
+Masukkan nilai jari-jari lingkaran
+Hitung luas lingkaran dengan rumus L = πr²
+Hitung keliling lingkaran dengan rumus K = 2πr
+Tampilkan hasil luas dan keliling lingkaran
+
+- Flowchart:
+python
+start
+input r
+L = πr²
+K = 2πr
+output L, K
+end
+
+- Pseudocode:
+python
+START
+INPUT r
+L ← π * r * r
+K ← 2 * π * r
+OUTPUT L, K
+END
+
+b. Menghitung luas segitiga
+Deskripsi:
+Masukkan nilai alas dan tinggi segitiga
+Hitung luas segitiga dengan rumus L = 1/2 x alas x tinggi
+Tampilkan hasil luas segitiga
+
+- Flowchart:
+python
+start
+input alas, tinggi
+L = 1/2 x alas x tinggi
+output L
+end
+
+- Pseudocode:
+python
+START
+INPUT alas, tinggi
+L ← 1/2 * alas * tinggi
+OUTPUT L
+END
+
