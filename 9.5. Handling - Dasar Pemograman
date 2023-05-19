@@ -1,0 +1,62 @@
+15. Hanya Informasi Saja, Tidak ada codinganNya
+
+A. PENGENALAN
+File handling adalah proses untuk membaca, menulis, dan mengubah data dari atau ke file di dalam sistem operasi. Python menyediakan beberapa fungsi dan kelas built-in untuk memudahkan dalam melakukan file handling. Beberapa fungsi yang sering digunakan dalam file handling di Python antara lain:
+•    open(): digunakan untuk membuka file
+•    read(): digunakan untuk membaca file
+•    write(): digunakan untuk menulis file
+•    close(): digunakan untuk menutup file
+
+B. JENIS FILE 
+Adapaun jenis file yang dapat dibaca oleh Python adalah:
+•    File teks (.txt)
+•    File CSV (.csv)
+•    File Excel (.xls, .xlsx)
+•    File JSON (.json)
+•    File XML (.xml)
+•    File SQLite (.db)
+•    File pickle (.pkl)
+•    File PDF (.pdf)
+•    File gambar (.jpg, .png, .gif)
+•    File audio (.mp3, .wav)
+•    File video (.mp4, .avi)
+Akan tetapi Untuk membaca jenis file tertentu yang tidak didukung secara built-in oleh Python, dapat menggunakan library tambahan. Misalnya, untuk membaca file Excel, dapat menggunakan library seperti pandas atau openpyxl. Sebagai contoh, untuk membaca file CSV menggunakan library pandas, kode Pythonnya akan seperti ini:
+ 
+Atau untuk membaca file Excel menggunakan library openpyxl, kode Pythonnya akan seperti ini:
+ 
+Secara umum, python dapat membaca hampir semua jenis file jika kita menggunakan library yang tepat.
+
+C. OPERASI FILE PADA PYTHON
+Berikut ini adalah contoh kode program untuk menghandle file.txt dan menulis “hello world” kedalam file tersebut. 
+ 
+
+Untuk membaca data dari file di Python, Anda dapat menggunakan fungsi read() atau readlines(). Fungsi read() digunakan untuk membaca seluruh isi file sebagai satu string, sedangkan fungsi readlines() digunakan untuk membaca setiap baris dari file sebagai elemen dalam sebuah list. Sebagai contoh, untuk membaca isi dari file "file.txt" yang telah ditulis sebelumnya, kode Pythonnya akan seperti ini:
+ 
+Atau kita bisa membaca baris per baris dengan menggunakan readlines()
+[9:50 PM]
+Kita juga bisa menggunakan with open untuk membuka dan menutup file secara otomatis.
+ 
+Di dalam blok with, file akan dibuka saat masuk ke dalam blok dan akan ditutup secara otomatis saat keluar dari blok, tanpa harus menuliskan kode close().
+
+(CONTOH RUMUS HANDLING)
+try:
+    # code that may cause exception
+except:
+    # code to run when exception occurs
+    
+
+import pandas as pd
+
+data = pd.read.csv("file.xlsx")
+print(data)
+
+utawa
+
+file = open("file.txt","r")
+
+line = file.readline()
+
+for line in lines:
+    print(line)
+
+file.close()
